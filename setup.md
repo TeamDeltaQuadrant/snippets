@@ -4,6 +4,21 @@ This is an updated Guide for using [diaspora* -replica](https://github.com/joebe
 
 [Original Gide](https://wiki.diasporafoundation.org/Installation/Vagrant_puppet_capistrano)
 
+- [How to setup Diaspora Development Environment with Vagrant](#how-to-setup-diaspora-development-environment-with-vagrant)
+	- [Initialize project](#initialize-project)
+	- [Cloning your git repository in src/ directory](#cloning-your-git-repository-in-src-directory)
+	- [Run development virtual machine](#run-development-virtual-machine)
+	- [Enabling vagrant user to use rvm (first time set up)](#enabling-vagrant-user-to-use-rvm-first-time-set-up)
+	- [Prepare the Rails application](#prepare-the-rails-application)
+	- [Configure Rubies and Gemsets](#configure-rubies-and-gemsets)
+	- [Install gems and create databases](#install-gems-and-create-databases)
+	- [Configure test environment](#configure-test-environment)
+	- [Run all tests](#run-all-tests)
+	- [How to upgrade diaspora*-replica](#how-to-upgrade-diaspora-replica)
+	- [How to update your forked diaspora repository](#how-to-update-your-forked-diaspora-repository)
+
+- [Configure Git to sync your fork with the original diaspora repository](#configure-git-to-sync-your-fork-with-the-original-diaspora-repository)
+
 ## Configure FQDNs in your system
 
 Vagrantfile, Puppet and Capistrano are already configured to handle three kind of environment: development, staging and production. If you want to try them you have to update /etc/hosts file, adding to it the three FQDN for the local diaspora* installation.
