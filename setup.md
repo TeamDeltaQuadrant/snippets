@@ -1,5 +1,19 @@
 # How to setup Diaspora Development Environment with Vagrant
 
+This is an updated Guide for using [diaspora* -replica](https://github.com/joebew42/diaspora-replica)
+
+[Original Gide](https://wiki.diasporafoundation.org/Installation/Vagrant_puppet_capistrano)
+
+## Configure FQDNs in your system
+
+Vagrantfile, Puppet and Capistrano are already configured to handle three kind of environment: development, staging and production. If you want to try them you have to update /etc/hosts file, adding to it the three FQDN for the local diaspora* installation.
+
+Put these entries in your /etc/hosts :
+```
+192.168.11.2    development.diaspora.local
+192.168.11.3    staging.diaspora.local
+192.168.11.4    production.diaspora.local
+```
 ## Initialize project
 ```
 git clone https://github.com/joebew42/diaspora-replica.git
