@@ -18,6 +18,14 @@ start diaspora
 ### reset database to a clean state
 ``   bin/rake db:drop db:create db:schema:load ``
 
+## Testing Workflow
+
+### RSpec
+```
+RAILS_ENV="test" bin/rake db:create db:schema:load
+bin/rake spec
+```
+
 
 ## start development enviroment in Vagrant
 
