@@ -18,7 +18,7 @@ start diaspora
 ### reset database to a clean state
 ``   bin/rake db:drop db:create db:schema:load ``
 
-## Testing Workflow
+## [Testing Workflow](https://wiki.diasporafoundation.org/Testing_Workflow)
 
 ### RSpec
 ```
@@ -26,6 +26,15 @@ RAILS_ENV="test" bin/rake db:create db:schema:load
 bin/rake spec
 ```
 
+## [Git Workflow](https://wiki.diasporafoundation.org/Git_workflow#Rebase_your_development_branch_on_the_latest_upstream)
+
+### Rebase
+
+```
+git fetch upstream
+# make sure all is committed (or stashed) as necessary on this branch
+git rebase -i upstream/develop 359-aspect-names
+```
 
 ## start development enviroment in Vagrant
 
