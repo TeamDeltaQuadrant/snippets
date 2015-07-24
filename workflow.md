@@ -2,7 +2,7 @@
 
 ## usefull other stuff
 
-clear the CAAAAAAASHHHH
+clear the CAAAAAAACHHHE
 ```
 bin/rake tmp:cache:clear
 ```
