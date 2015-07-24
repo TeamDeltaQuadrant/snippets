@@ -1,5 +1,12 @@
 # * Workflow
 
+## usefull other stuff
+
+clear the CAAAAAAASHHHH
+```
+bin/rake tmp:cache:clear
+```
+
 ## start development enviroment
 
 start redis
