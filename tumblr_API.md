@@ -12,7 +12,7 @@ https://github.com/tumblr/tumblr_client/tree/master/lib/tumblr
 
 ### What we found out
 
-* strange behaviour: if you connect with tumblr your username in diaspora changes (also stays for following sessions)
+* strange behaviour: if you connect with tumblr your username in diaspora changes (also stays for following sessions) seems to happen only if you didn't fill in your name
 
 #### Server log for posting to tumblr
 ```
