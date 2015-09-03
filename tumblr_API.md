@@ -10,3 +10,7 @@ https://www.tumblr.com/docs/en/api/v2
 
 https://github.com/tumblr/tumblr_client/tree/master/lib/tumblr
 
+### What we found out
+
+* strange behaviour: if you connect with tumblr your username in diaspora changes
+
