@@ -8,7 +8,7 @@ https://www.tumblr.com/docs/en/api/v2
 
 ### Ruby Gem for tumblr (not yet used in Diaspora)
 
-https://github.com/tumblr/tumblr_client/tree/master/lib/tumblr
+https://github.com/tumblr/tumblr_client
 
 ### What we found out
 
