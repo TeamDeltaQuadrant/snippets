@@ -33,6 +33,12 @@ RAILS_ENV="test" bin/rake db:create db:schema:load
 bin/rake spec
 ```
 
+### Jasmine
+```
+bin/rake tests:generate_fixtures
+bin/rake jasmine
+```
+
 ## [Git Workflow](https://wiki.diasporafoundation.org/Git_workflow#Rebase_your_development_branch_on_the_latest_upstream)
 
 ### Rebase
